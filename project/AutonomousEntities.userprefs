@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Shuttle.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Shuttle.cs" Line="26" Column="34" />
+      <File FileName="Assets\Scripts\Spaawner.cs" Line="21" Column="1" />
+      <File FileName="Assets\Scripts\CameraSwitch.cs" Line="16" Column="18" />
+      <File FileName="..\GE2\GE2-2017-2018\Unity\UnityIdioms\Assets\Boid.cs" Line="50" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
