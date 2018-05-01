@@ -27,7 +27,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1780584827325036
 GameObject:
   m_ObjectHideFlags: 0
@@ -39,7 +39,8 @@ GameObject:
   - component: {fileID: 33600693248777472}
   - component: {fileID: 135794773379005314}
   - component: {fileID: 23007508797192880}
-  - component: {fileID: 114893137643261322}
+  - component: {fileID: 114399793939506522}
+  - component: {fileID: 114310027931013032}
   m_Layer: 0
   m_Name: Hostile
   m_TagString: Untagged
@@ -98,7 +99,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967039
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -151,7 +152,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1780584827325036}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114893137643261322
+--- !u!114 &114310027931013032
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -159,11 +160,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1780584827325036}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a50d17e7eaecfc4ab51b4dcaa6799fa, type: 3}
+  m_Script: {fileID: 11500000, guid: f4c2ed325d6bfcd4683f795f4f0d46e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 4946522235137070, guid: 7993f424c773d7d46983325a66354a43, type: 2}
-  speed: 0.1
+  force: {x: 0, y: 0, z: 0}
+  acceleration: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  mass: 1
+  maxSpeed: 5
+--- !u!114 &114399793939506522
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780584827325036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a38b7692391971d46a9e77342bd38eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 1
+  boid: {fileID: 0}
+  targetPosition: {x: 0, y: 0, z: 0}
+  slowingDistance: 30
+  deceleration: 10
+  targetGameObject: {fileID: 0}
 --- !u!124 &124463712267336282
 Behaviour:
   m_ObjectHideFlags: 1

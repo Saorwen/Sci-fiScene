@@ -1,0 +1,24 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Attack.cs">
+    <Files>
+      <File FileName="Assets\Scripts\SteeringBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Boid.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Attack.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Spaawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraSwitch.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Starship.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Terminate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Flee.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Borg.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Captain.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Wander.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Regroup.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraPan.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
